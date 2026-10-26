@@ -73,10 +73,18 @@ const Home = () => {
           {/* Left Side - Text Content */}
           <div className="hero-text">
             <h1 className="hero-title" style={{ color: '#FFFFFF', fontWeight: 900, textShadow: '0 3px 15px rgba(0, 0, 0, 0.3)' }}>
-              Transform Your Future with <span className="hero-highlight">Awizo Hub</span>
+              
+             {/* Transform Your Future with <span className="hero-highlight">Awizo Hub</span> */}
+
+              
+              Digital Marketing Agency in Chennai –{" "}<span className="hero-highlight">Awizo Hub</span>
+
             </h1>
             <p className="hero-subtitle" style={{ color: '#FFFFFF', fontWeight: 700, textShadow: '0 2px 20px rgba(255, 255, 255, 0.3), 0 0 30px rgba(255, 255, 255, 0.2)', filter: 'brightness(1.2)' }}>
-              Your One-Stop Solution for Digital Marketing, IT Careers, Education Abroad, and Online Learning
+              {/*Your One-Stop Solution for Digital Marketing, IT Careers, Education Abroad, and Online Learning*/}
+              
+              Grow your business with digital marketing, SEO services, website design, social media marketing, Google Ads and Meta Ads.
+
             </p>
             <div className="hero-cta">
               <Link to="/contact" className="btn btn-primary btn-lg" style={{ fontWeight: 700, fontSize: '1.125rem' }}>
